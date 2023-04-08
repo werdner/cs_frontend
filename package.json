@@ -1,0 +1,15 @@
+{
+  "name": "cs_frontend",
+  "version": "1.0.0",
+  "description": "Homework solutions for computer since course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "computer",
+    "since"
+  ],
+  "author": "Roman Titov <werdner.roman@gmail.com>",
+  "license": "ISC"
+}
