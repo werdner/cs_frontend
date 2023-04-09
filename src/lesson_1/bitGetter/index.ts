@@ -27,7 +27,7 @@ class BitGetter {
         this.#assertValidation(index, bitPosition)
 
         if (value === 0) {
-            this.#theArray[index] = this.#theArray[index] ^ (1 << 0)
+            this.#theArray[index] = this.#theArray[index] & ~(1 << bitPosition)
         } else {
             this.#theArray[index] = this.#theArray[index] | (1 << bitPosition)
         }
