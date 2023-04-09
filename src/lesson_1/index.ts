@@ -1,0 +1,1 @@
+export {createBitGetter} from './bitGetter/index'
